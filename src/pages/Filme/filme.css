@@ -1,0 +1,73 @@
+.filme-info {
+  margin: 0 auto;
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  padding: 0 8px;
+  margin-top: 18px;
+}
+
+.titulo {
+  margin: 14px;
+}
+
+.img {
+  width: 800px;
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.sinopse-title {
+  margin-top: 14px;
+}
+
+.sinopse {
+  margin: 8px 0;
+}
+
+.salvarBtn {
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #000000;
+  color: #fff;
+}
+
+.salvarBtn:hover {
+  background-color: rgb(16, 172, 112);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+.linkBtn:hover {
+  background-color: brown;
+}
+
+.linkBtn {
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #000000;
+  color: #fff;
+}
